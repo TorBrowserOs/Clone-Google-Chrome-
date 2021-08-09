@@ -1,0 +1,79 @@
+Skip to main content
+Firebase logo
+Project Overview
+Crashlytics
+Performance
+Test Lab
+App Distribution
+Dashboard
+Realtime
+Events
+Conversions
+Audiences
+Funnels
+Custom Definitions
+Latest Release
+Retention
+DebugView
+Extensions
+Demo project
+Project settings
+General
+Integration
+Data privacy
+Your project
+Project name
+Firebase Demo Project
+Project ID
+fir-demo-project
+Project number
+300830567303
+Default  resource location
+nam5 (us-central)
+Parent org/folder in 
+folders/1019156134833
+Web API key
+AIzaSyDadhQvQJsezb0Jj8LkaA6NPHvZ6b3guuY
+Public settings
+These settings control instances of your project shown to the public
+Public-facing name 
+Firebase Demo Project
+Support email
+sganem@google.com
+Your apps
+Flood-It! Android
+SDK setup and configuration
+Need to reconfigure the Firebase SDKs for your app? Revisit the SDK setup instructions or just download the configuration file containing keys and identifiers for your app.
+App ID
+1:300830567303:android:9b9ba2ce17104d0c
+App nickname
+Flood-It! Android
+Package name
+com.labpixies.flood
+SHA certificate fingerprints
+Type
+70:9b:fc:b3:f7:b5:e0:ba:67:42:c3:0c:9d:2e:e3:34:07:25:98:d5
+SHA-1
+25:3b:78:7d:0e:39:7a:3c:32:4a:4c:b2:84:0b:64:ce:5a:e9:54:05
+SHA-1
+44:e0:34:f8:68:4d:ab:16:f4:e7:f0:27:7a:93:80:6d:18:b8:d7:a9:4f:72:87:30:7d:f8:5b:e3:7c:c3:97:61
+SHA-256
+AUG 2021<!--  Using libraries-bom to manage versions.
+See https://github.com/GoogleCloudPlatform/cloud-opensource-java/wiki/The-Google-Cloud-Platform-Libraries-BOM -->
+<dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>libraries-bom</artifactId>
+      <version>20.9.0</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+  </dependencies>
+</dependencyManagement>
+
+<dependencies>
+  <dependency>
+    <groupId>com.google.cloud</groupId>
+    <artifactId>google-cloud-bigquery</artifactId>
+  </dependency>
